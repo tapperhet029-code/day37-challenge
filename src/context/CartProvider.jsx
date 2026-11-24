@@ -22,7 +22,7 @@ function CartProvider({ children }) {
   }
 
   return (
-    <CartContext TODO 2={{ cart, addToCart, removeFromCart, clearCart }}>{TODO 3}</CartContext>
+    <CartContext value={{ cart, addToCart, removeFromCart, clearCart }}>{children}</CartContext>
   );
 }
 

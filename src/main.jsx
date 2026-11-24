@@ -9,9 +9,9 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       {/* 장바구니를 앱 전체에 나눠 줍니다 */}
-      <TODO 5>
+      <CartProvider>
         <App />
-      </TODO 5>
+      </CartProvider>
     </BrowserRouter>
   </StrictMode>,
 )

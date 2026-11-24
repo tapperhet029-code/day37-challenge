@@ -14,7 +14,7 @@ const inputClass =
 
 // 메뉴(/) — 분류와 찾는 글자로 거른 메뉴 목록
 function MenuPage() {
-  const { TODO 6 } = useContext(CartContext);
+  const { fromContext } = useContext(CartContext);
   const [category, setCategory] = useState("전체");
   const [keyword, setKeyword] = useState("");
 
